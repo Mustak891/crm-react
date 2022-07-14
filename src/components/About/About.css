@@ -1,0 +1,52 @@
+.aboutimg {
+  height: 600px;
+  width: 600px;
+  object-fit: contain;
+  margin-top: 100px;
+}
+
+.aboutimg:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.imgabout {
+  flex: 1;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.abouttext {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 20px;
+  letter-spacing: 2px;
+  line-height: 42px;
+}
+
+.aboutsubhead {
+  font-size: 40px;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 280px;
+}
+
+.aboutwe {
+  color: rgb(48, 48, 177);
+}
+
+.aboutButton {
+  margin-bottom: 80px;
+}
