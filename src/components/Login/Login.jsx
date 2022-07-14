@@ -64,7 +64,6 @@ const Login = () => {
         body: JSON.stringify(values),
         credentials: "include",
       });
-      res.headers.get("set-cookie");
       if (res.status === 400 || !res) {
         window.alert("check your email or password");
       } else {
