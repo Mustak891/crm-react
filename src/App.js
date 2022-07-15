@@ -66,7 +66,7 @@ function App() {
         <Route path='/dashboard/:id' element={<Protectedroute auth={auth}> <UpdateTable /> </Protectedroute>} />
         <Route path='/dashboard/addcustomer' element={<Protectedroute auth={auth}> <AddTable /> </Protectedroute>} />
         <Route path='/404-error' element={<Error />} />
-        <Route path='*' element={<Navigate to='/404-error' replace={true} />} />
+        <Route path='/*' element={<Navigate to='/404-error' replace={true} />} />
       </Routes>
       <Footer />
     </div>
