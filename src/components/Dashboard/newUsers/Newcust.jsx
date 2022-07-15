@@ -18,7 +18,7 @@ const WidgetSmall = () => {
       }
     };
     getNewUsers();
-  }, []);
+  }, [newUsers]);
 
   return (
     <div className="widgetSm">

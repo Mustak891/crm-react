@@ -15,7 +15,7 @@ import StartIcon from "@mui/icons-material/Start";
 import { Link } from "react-router-dom";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import LogoutIcon from "@mui/icons-material/Logout";
-
+import CustomizedDialogs from "../Dashboard/howItsWokr/How";
 
 const pages = [
   <Link to="/about" className="link">
@@ -27,6 +27,7 @@ const pages = [
   <Link to="/contact" className="link">
     Contact
   </Link>,
+  <CustomizedDialogs />
 ];
 
 const ResponsiveAppBar = (props) => {

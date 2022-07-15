@@ -1,25 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './charts.css';
 import { LineChart, Line, XAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { API_URL } from '../../api/api';
+
 
 const Charts = () => {
-
-
-  
-         //get employees
-         useEffect(() => {
-          const getStats = async () => {
-            try {
-              const res = await fetch(`${API_URL}/api/employeestats`);
-              await res.json();
-            } catch (err) {
-              console.log(err);
-            }
-          };
-          getStats();
-        }, []);
-
 
     const data = [
         {

@@ -31,7 +31,7 @@ function App() {
           Accept: 'application/json',
           'Content-Type': 'application/json'
         },
-        credentials: 'include'
+        credentials: 'include',
       });
 
       if (res.status === 200) {
