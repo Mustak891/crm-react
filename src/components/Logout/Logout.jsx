@@ -21,7 +21,7 @@ const Logout = () => {
       } else {
         window.alert("logout successful");
         window.location.reload();
-        navigate("/");
+        navigate("https://mondaycrm.netlify.app/");
       }
     } catch (err) {
       console.log(err);
