@@ -18,7 +18,7 @@ const Features = () => {
      
     useEffect(() => {
     getEmployee();
-    }, []);
+    }, [employee]);
 
     const strategicCRM1 = employee.filter(data => data.empwork === 'Strategic CRM');
     const strategicCRM = (strategicCRM1.length);  
