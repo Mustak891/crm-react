@@ -1,12 +1,7 @@
 .footer {
   height: 50vh;
   margin-top: 40px;
-  background: rgb(36, 172, 223);
-  background: linear-gradient(
-    14deg,
-    rgba(36, 172, 223, 1) 0%,
-    rgba(62, 48, 126, 1) 100%
-  );
+  background: black;
   color: white;
 }
 

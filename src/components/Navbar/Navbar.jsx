@@ -42,7 +42,7 @@ const ResponsiveAppBar = (props) => {
   };
 
   return (
-    <AppBar position="fixed" sx={{ bgcolor: "white", color: "black" }}>
+    <AppBar position="fixed" top="0" sx={{ bgcolor: "white", color: "black" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
